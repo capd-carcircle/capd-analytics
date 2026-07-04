@@ -1,5 +1,7 @@
 package com.capd.analytics.web
 
+import com.capd.analytics.auth.ForbiddenException
+import com.capd.analytics.auth.UnauthorizedException
 import com.capd.analytics.core.AnalyticsTasks
 import com.capd.analytics.core.DataEngineering
 import com.capd.analytics.repo.AnalyticsRepository
@@ -52,15 +54,34 @@ class AnalyticsService(private val repo: AnalyticsRepository) {
         return series
     }
 
-    fun getPatientAnalytics(patientId: Long, window: Int): Map<String, Any?> {
-        val patientName = repo.findPatientName(patientId)
+    /**
+     * currentUserId: JWT에서 검증된 요청자(의사) id. 접근권한·담당이력 로직은
+     * backend/app/api/v1/routes/patients.py(_require_doctor/_get_assignment) +
+     * analytics.py(get_patient_analytics)를 그대로 재현.
+     */
+    fun getPatientAnalytics(currentUserId: Long, patientId: Long, window: Int): Map<String, Any?> {
+        val currentUser = repo.findUserById(currentUserId)
+            ?: throw UnauthorizedException("사용자를 찾을 수 없습니다.")
+        if (!currentUser.isActive) throw ForbiddenException("비활성화된 계정입니다.")
+        if (currentUser.role != "doctor") throw ForbiddenException("의사만 접근할 수 있습니다.")
+
+        val patient = repo.findPatient(patientId)
             ?: throw PatientNotFoundException("환자를 찾을 수 없습니다.")
 
-        val records = repo.findRecentRecords(patientId, window + 1)
+        val assignment = repo.findLatestAssignment(currentUserId, patientId)
+        val hasAccess = assignment != null || patient.doctorId == currentUserId
+        if (!hasAccess) throw ForbiddenException("접근 권한이 없습니다.")
+
+        // 과거 담당이면 담당 기간(~ended_at) 내 기록만
+        val isCurrent = assignment == null || assignment.endedAt == null
+        val cutoffDate = if (!isCurrent && assignment?.endedAt != null) {
+            assignment.endedAt.toLocalDate()
+        } else null
+
+        val records = repo.findRecentRecords(patientId, window + 1, cutoffDate)
         if (records.isEmpty()) throw NoRecordsException("분석할 제출/승인 기록이 없습니다.")
 
-        val exchangesByRecord = repo.findExchangesFor(records.map { it.id })
-            .groupBy { it.dailyRecordId }
+        val exchangesByRecord = repo.findExchangesFor(records.map { it.id }).groupBy { it.dailyRecordId }
 
         val todayRecord = records.first()
         val historicalRecords = records.drop(1)
@@ -72,15 +93,23 @@ class AnalyticsService(private val repo: AnalyticsRepository) {
             DataEngineering.buildDailyModelRow(toDailyData(it), toExchanges(exchangesByRecord[it.id] ?: emptyList()))
         }
 
-        val result = AnalyticsTasks.runAllTasks(todayRow, historicalRows, window)
+        val cached = repo.readCache(patientId, todayRecord.recordDate, historicalRows.size)
+        val (result, source) = if (cached != null) {
+            cached to "cache"
+        } else {
+            val computed = AnalyticsTasks.runAllTasks(todayRow, historicalRows, window)
+            repo.upsertCache(patientId, todayRecord.recordDate, todayRow, computed)
+            computed to "on_demand"
+        }
+
         val dailySeries = buildDailySeries(todayRow, historicalRows)
 
         return mapOf(
             "patient_id" to patientId,
-            "patient_name" to patientName,
+            "patient_name" to patient.name,
             "record_date" to todayRecord.recordDate.toString(),
             "window_days" to historicalRows.size,
-            "source" to "kotlin_on_demand",
+            "source" to source,
             "daily_series" to dailySeries,
         ) + result
     }

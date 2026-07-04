@@ -15,6 +15,12 @@ spring:
   jackson:
     default-property-inclusion: non_null
 
+# backend(Python)와 반드시 같은 값 -- backend/.env의 SECRET_KEY를 그대로 주입할 것.
+# (backend가 발급한 JWT를 이 서비스가 검증하므로 서명키가 달라지면 전부 401)
+capd:
+  jwt:
+    secret: ${SECRET_KEY:}
+
 logging:
   level:
     com.capd.analytics: INFO
