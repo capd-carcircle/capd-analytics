@@ -1,0 +1,1842 @@
+[
+  {
+    "daily_data": {
+      "date": "2026-01-01",
+      "weight": 67.8,
+      "blood_pressure": "111/93",
+      "total_ultrafiltration": 34.0,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 114.8,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1941.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2122.2,
+        "ultrafiltration": -181.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:11",
+        "drainage_volume": 2136.2,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1909.5,
+        "ultrafiltration": 226.7
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:38",
+        "drainage_volume": 1993.1,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2080.6,
+        "ultrafiltration": -87.5
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "17:03",
+        "drainage_volume": 2186.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2110.4,
+        "ultrafiltration": 76.0
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-02",
+      "weight": 64.0,
+      "blood_pressure": "127/95",
+      "total_ultrafiltration": -36.4,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 168.2,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2036.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1946.6,
+        "ultrafiltration": 89.5
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:13",
+        "drainage_volume": 1937.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1929.0,
+        "ultrafiltration": 8.1
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:30",
+        "drainage_volume": 2005.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1913.0,
+        "ultrafiltration": 92.8
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:38",
+        "drainage_volume": 1949.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2176.7,
+        "ultrafiltration": -226.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-03",
+      "weight": 60.9,
+      "blood_pressure": "150/89",
+      "total_ultrafiltration": 351.8,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 169.7,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2181.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1913.7,
+        "ultrafiltration": 268.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:38",
+        "drainage_volume": 2015.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1923.9,
+        "ultrafiltration": 91.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "16:28",
+        "drainage_volume": 1940.4,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1983.4,
+        "ultrafiltration": -43.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "21:14",
+        "drainage_volume": 2045.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2011.1,
+        "ultrafiltration": 34.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-04",
+      "weight": 60.3,
+      "blood_pressure": "153/90",
+      "total_ultrafiltration": 70.6,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 96.4,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1997.9,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2038.7,
+        "ultrafiltration": -40.8
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:58",
+        "drainage_volume": 2156.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2067.1,
+        "ultrafiltration": 88.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:39",
+        "drainage_volume": 2237.1,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2132.8,
+        "ultrafiltration": 104.3
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "20:24",
+        "drainage_volume": 1912.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1994.6,
+        "ultrafiltration": -81.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-05",
+      "weight": 59.2,
+      "blood_pressure": "146/98",
+      "total_ultrafiltration": -308.8,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 154.6,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2058.3,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2174.4,
+        "ultrafiltration": -116.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:18",
+        "drainage_volume": 2006.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1974.0,
+        "ultrafiltration": 32.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:26",
+        "drainage_volume": 2005.1,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2075.4,
+        "ultrafiltration": -70.3
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:17",
+        "drainage_volume": 2044.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2199.2,
+        "ultrafiltration": -154.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-06",
+      "weight": 64.9,
+      "blood_pressure": "158/71",
+      "total_ultrafiltration": 258.0,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 167.5,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2216.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2026.6,
+        "ultrafiltration": 190.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:49",
+        "drainage_volume": 2052.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2198.8,
+        "ultrafiltration": -146.2
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:21",
+        "drainage_volume": 2288.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2158.2,
+        "ultrafiltration": 130.2
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:48",
+        "drainage_volume": 2188.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2104.5,
+        "ultrafiltration": 83.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-07",
+      "weight": 60.3,
+      "blood_pressure": "151/80",
+      "total_ultrafiltration": -2.4,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 100.0,
+      "urine_count": 3,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1901.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2116.6,
+        "ultrafiltration": -215.3
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:33",
+        "drainage_volume": 2288.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2128.6,
+        "ultrafiltration": 160.2
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:29",
+        "drainage_volume": 1942.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2087.6,
+        "ultrafiltration": -145.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:33",
+        "drainage_volume": 2143.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1945.9,
+        "ultrafiltration": 197.7
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-08",
+      "weight": 74.1,
+      "blood_pressure": "143/99",
+      "total_ultrafiltration": -404.0,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 90.1,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1944.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2008.9,
+        "ultrafiltration": -64.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:30",
+        "drainage_volume": 1923.2,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2163.4,
+        "ultrafiltration": -240.2
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:40",
+        "drainage_volume": 2192.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2144.8,
+        "ultrafiltration": 48.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:18",
+        "drainage_volume": 1950.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2097.9,
+        "ultrafiltration": -147.6
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-09",
+      "weight": 60.3,
+      "blood_pressure": "148/83",
+      "total_ultrafiltration": 337.9,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 176.8,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2175.9,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2113.9,
+        "ultrafiltration": 62.0
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:25",
+        "drainage_volume": 2160.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2031.4,
+        "ultrafiltration": 128.6
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:22",
+        "drainage_volume": 1948.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1967.4,
+        "ultrafiltration": -19.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:24",
+        "drainage_volume": 2135.3,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1969.0,
+        "ultrafiltration": 166.3
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-10",
+      "weight": 56.4,
+      "blood_pressure": "150/71",
+      "total_ultrafiltration": -203.4,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 110.6,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1928.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1971.4,
+        "ultrafiltration": -43.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:02",
+        "drainage_volume": 1985.7,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1939.7,
+        "ultrafiltration": 46.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:15",
+        "drainage_volume": 2089.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2135.4,
+        "ultrafiltration": -46.3
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:39",
+        "drainage_volume": 1937.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2097.7,
+        "ultrafiltration": -160.0
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-11",
+      "weight": 63.2,
+      "blood_pressure": "156/71",
+      "total_ultrafiltration": -32.2,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 150.6,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2191.3,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2140.2,
+        "ultrafiltration": 51.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:31",
+        "drainage_volume": 1976.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2060.9,
+        "ultrafiltration": -84.3
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:25",
+        "drainage_volume": 1973.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2038.8,
+        "ultrafiltration": -65.4
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:21",
+        "drainage_volume": 2223.2,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2156.8,
+        "ultrafiltration": 66.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-12",
+      "weight": 68.0,
+      "blood_pressure": "144/96",
+      "total_ultrafiltration": 287.9,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 91.3,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2239.5,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1949.9,
+        "ultrafiltration": 289.6
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:01",
+        "drainage_volume": 1985.5,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2020.3,
+        "ultrafiltration": -34.8
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:22",
+        "drainage_volume": 2051.6,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2195.6,
+        "ultrafiltration": -144.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:20",
+        "drainage_volume": 2213.6,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2036.5,
+        "ultrafiltration": 177.1
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-13",
+      "weight": 74.1,
+      "blood_pressure": "160/87",
+      "total_ultrafiltration": -226.1,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 149.6,
+      "urine_count": 3,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2018.7,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2190.6,
+        "ultrafiltration": -171.9
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:34",
+        "drainage_volume": 2116.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2124.4,
+        "ultrafiltration": -7.5
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:40",
+        "drainage_volume": 2133.7,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2050.9,
+        "ultrafiltration": 82.8
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:00",
+        "drainage_volume": 1922.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2052.3,
+        "ultrafiltration": -129.5
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-14",
+      "weight": 66.9,
+      "blood_pressure": "153/97",
+      "total_ultrafiltration": -15.9,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 111.2,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2127.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2073.7,
+        "ultrafiltration": 54.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:19",
+        "drainage_volume": 1932.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2097.2,
+        "ultrafiltration": -164.4
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:25",
+        "drainage_volume": 2026.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1978.2,
+        "ultrafiltration": 48.3
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:56",
+        "drainage_volume": 2025.7,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1979.7,
+        "ultrafiltration": 46.0
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-15",
+      "weight": 67.9,
+      "blood_pressure": "139/80",
+      "total_ultrafiltration": 244.4,
+      "turbid_peritoneal": true,
+      "fasting_blood_glucose": 173.6,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2148.5,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2068.9,
+        "ultrafiltration": 79.6
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:09",
+        "drainage_volume": 2115.1,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2051.8,
+        "ultrafiltration": 63.3
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:08",
+        "drainage_volume": 2039.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1920.6,
+        "ultrafiltration": 119.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:55",
+        "drainage_volume": 2014.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2031.5,
+        "ultrafiltration": -17.5
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-16",
+      "weight": 61.1,
+      "blood_pressure": "151/86",
+      "total_ultrafiltration": -183.6,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 90.7,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2165.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2181.7,
+        "ultrafiltration": -16.3
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:33",
+        "drainage_volume": 1946.2,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1932.1,
+        "ultrafiltration": 14.1
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:52",
+        "drainage_volume": 2008.9,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2081.4,
+        "ultrafiltration": -72.5
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "17:35",
+        "drainage_volume": 1981.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2090.3,
+        "ultrafiltration": -108.9
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-17",
+      "weight": 64.8,
+      "blood_pressure": "113/72",
+      "total_ultrafiltration": 255.3,
+      "turbid_peritoneal": true,
+      "fasting_blood_glucose": 147.1,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2033.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1939.2,
+        "ultrafiltration": 94.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:20",
+        "drainage_volume": 2196.5,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2065.5,
+        "ultrafiltration": 131.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:31",
+        "drainage_volume": 1903.9,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1922.6,
+        "ultrafiltration": -18.7
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:26",
+        "drainage_volume": 1959.6,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1910.8,
+        "ultrafiltration": 48.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-18",
+      "weight": 66.1,
+      "blood_pressure": "137/74",
+      "total_ultrafiltration": -122.7,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 93.8,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2218.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2158.2,
+        "ultrafiltration": 60.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:26",
+        "drainage_volume": 2172.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2100.1,
+        "ultrafiltration": 72.7
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:05",
+        "drainage_volume": 2124.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2162.4,
+        "ultrafiltration": -38.4
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:40",
+        "drainage_volume": 1961.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2179.0,
+        "ultrafiltration": -217.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-19",
+      "weight": 71.2,
+      "blood_pressure": "136/70",
+      "total_ultrafiltration": -39.1,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 106.1,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2064.7,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2101.0,
+        "ultrafiltration": -36.3
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:43",
+        "drainage_volume": 1999.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1947.8,
+        "ultrafiltration": 51.5
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:56",
+        "drainage_volume": 2053.0,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1911.6,
+        "ultrafiltration": 141.4
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:24",
+        "drainage_volume": 1979.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2175.5,
+        "ultrafiltration": -195.7
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-20",
+      "weight": 71.4,
+      "blood_pressure": "124/77",
+      "total_ultrafiltration": 505.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 92.1,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2011.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1920.8,
+        "ultrafiltration": 90.6
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:44",
+        "drainage_volume": 2156.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2019.9,
+        "ultrafiltration": 136.7
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:26",
+        "drainage_volume": 2275.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1934.6,
+        "ultrafiltration": 341.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "17:48",
+        "drainage_volume": 2132.2,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2195.1,
+        "ultrafiltration": -62.9
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-21",
+      "weight": 66.9,
+      "blood_pressure": "132/93",
+      "total_ultrafiltration": 282.6,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 160.8,
+      "urine_count": 3,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2104.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2015.6,
+        "ultrafiltration": 89.0
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:24",
+        "drainage_volume": 2001.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2112.6,
+        "ultrafiltration": -110.7
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:30",
+        "drainage_volume": 2270.2,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2061.5,
+        "ultrafiltration": 208.7
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:30",
+        "drainage_volume": 2196.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2101.2,
+        "ultrafiltration": 95.6
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-22",
+      "weight": 56.4,
+      "blood_pressure": "152/99",
+      "total_ultrafiltration": 40.3,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 119.7,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1949.9,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2170.0,
+        "ultrafiltration": -220.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:39",
+        "drainage_volume": 2166.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1997.9,
+        "ultrafiltration": 168.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:16",
+        "drainage_volume": 2121.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1957.6,
+        "ultrafiltration": 164.2
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:16",
+        "drainage_volume": 2051.7,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2124.4,
+        "ultrafiltration": -72.7
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-23",
+      "weight": 66.4,
+      "blood_pressure": "135/87",
+      "total_ultrafiltration": 148.7,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 165.0,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2072.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2074.0,
+        "ultrafiltration": -2.0
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:41",
+        "drainage_volume": 2086.0,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2032.6,
+        "ultrafiltration": 53.4
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:46",
+        "drainage_volume": 2089.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2170.4,
+        "ultrafiltration": -81.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:07",
+        "drainage_volume": 2163.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1985.1,
+        "ultrafiltration": 178.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-24",
+      "weight": 67.4,
+      "blood_pressure": "115/96",
+      "total_ultrafiltration": 92.7,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 175.7,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1989.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1959.7,
+        "ultrafiltration": 30.2
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:05",
+        "drainage_volume": 1997.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2042.5,
+        "ultrafiltration": -44.6
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:03",
+        "drainage_volume": 2065.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2088.9,
+        "ultrafiltration": -23.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:34",
+        "drainage_volume": 2178.5,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2048.3,
+        "ultrafiltration": 130.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-25",
+      "weight": 68.1,
+      "blood_pressure": "110/98",
+      "total_ultrafiltration": -268.0,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 157.6,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1987.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2141.2,
+        "ultrafiltration": -153.7
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:06",
+        "drainage_volume": 2085.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2067.2,
+        "ultrafiltration": 18.6
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:04",
+        "drainage_volume": 1953.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2039.4,
+        "ultrafiltration": -86.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:15",
+        "drainage_volume": 2138.2,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2185.0,
+        "ultrafiltration": -46.8
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-26",
+      "weight": 71.3,
+      "blood_pressure": "142/83",
+      "total_ultrafiltration": -18.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 164.8,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1963.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2158.4,
+        "ultrafiltration": -194.7
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:33",
+        "drainage_volume": 2200.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2152.0,
+        "ultrafiltration": 48.7
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:11",
+        "drainage_volume": 2211.1,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2045.4,
+        "ultrafiltration": 165.7
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:46",
+        "drainage_volume": 2075.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2114.1,
+        "ultrafiltration": -38.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-27",
+      "weight": 61.7,
+      "blood_pressure": "144/72",
+      "total_ultrafiltration": -50.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 102.5,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1961.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1964.2,
+        "ultrafiltration": -3.1
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:52",
+        "drainage_volume": 2032.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2039.8,
+        "ultrafiltration": -7.4
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:18",
+        "drainage_volume": 2233.2,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2016.8,
+        "ultrafiltration": 216.4
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:47",
+        "drainage_volume": 1907.8,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2164.2,
+        "ultrafiltration": -256.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-28",
+      "weight": 64.5,
+      "blood_pressure": "132/79",
+      "total_ultrafiltration": -132.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 157.8,
+      "urine_count": 3,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2193.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2140.0,
+        "ultrafiltration": 53.9
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:02",
+        "drainage_volume": 1987.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2030.8,
+        "ultrafiltration": -43.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:51",
+        "drainage_volume": 2034.5,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2103.7,
+        "ultrafiltration": -69.2
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:23",
+        "drainage_volume": 1966.0,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2040.2,
+        "ultrafiltration": -74.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-29",
+      "weight": 65.7,
+      "blood_pressure": "135/88",
+      "total_ultrafiltration": 42.3,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 140.8,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2071.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2160.1,
+        "ultrafiltration": -88.7
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:06",
+        "drainage_volume": 2004.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1998.2,
+        "ultrafiltration": 5.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:47",
+        "drainage_volume": 2035.0,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2163.9,
+        "ultrafiltration": -128.9
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:23",
+        "drainage_volume": 2280.5,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2026.5,
+        "ultrafiltration": 254.0
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-30",
+      "weight": 55.4,
+      "blood_pressure": "144/71",
+      "total_ultrafiltration": -138.3,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 180.0,
+      "urine_count": 2,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1927.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2187.2,
+        "ultrafiltration": -259.8
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:36",
+        "drainage_volume": 1912.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1974.2,
+        "ultrafiltration": -61.8
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:55",
+        "drainage_volume": 1961.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1937.9,
+        "ultrafiltration": 23.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:09",
+        "drainage_volume": 2125.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1965.4,
+        "ultrafiltration": 160.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-01-31",
+      "weight": 70.3,
+      "blood_pressure": "120/89",
+      "total_ultrafiltration": 747.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 144.7,
+      "urine_count": 0,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1965.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1993.3,
+        "ultrafiltration": -27.8
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:03",
+        "drainage_volume": 2271.6,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2072.7,
+        "ultrafiltration": 198.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:53",
+        "drainage_volume": 2276.6,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1959.5,
+        "ultrafiltration": 317.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:21",
+        "drainage_volume": 2232.2,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1972.9,
+        "ultrafiltration": 259.3
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-01",
+      "weight": 61.0,
+      "blood_pressure": "153/89",
+      "total_ultrafiltration": 395.1,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 162.5,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2038.9,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2028.5,
+        "ultrafiltration": 10.4
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:08",
+        "drainage_volume": 2102.4,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2002.4,
+        "ultrafiltration": 100.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:53",
+        "drainage_volume": 2096.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2030.1,
+        "ultrafiltration": 66.0
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:14",
+        "drainage_volume": 2256.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2037.9,
+        "ultrafiltration": 218.7
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-02",
+      "weight": 58.5,
+      "blood_pressure": "143/100",
+      "total_ultrafiltration": 701.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 148.5,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2115.3,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2045.0,
+        "ultrafiltration": 70.3
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:45",
+        "drainage_volume": 2192.4,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1980.5,
+        "ultrafiltration": 211.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "16:31",
+        "drainage_volume": 2273.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1983.7,
+        "ultrafiltration": 290.1
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "20:02",
+        "drainage_volume": 2200.2,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2071.0,
+        "ultrafiltration": 129.2
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-03",
+      "weight": 61.7,
+      "blood_pressure": "141/97",
+      "total_ultrafiltration": 316.6,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 119.3,
+      "urine_count": 3,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2219.1,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2002.1,
+        "ultrafiltration": 217.0
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:29",
+        "drainage_volume": 2252.0,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2066.7,
+        "ultrafiltration": 185.3
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:53",
+        "drainage_volume": 1934.2,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2116.0,
+        "ultrafiltration": -181.8
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "19:04",
+        "drainage_volume": 2203.3,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2107.2,
+        "ultrafiltration": 96.1
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-04",
+      "weight": 64.8,
+      "blood_pressure": "160/70",
+      "total_ultrafiltration": 2.2,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 98.4,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1997.3,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2099.2,
+        "ultrafiltration": -101.9
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:00",
+        "drainage_volume": 2121.4,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2003.1,
+        "ultrafiltration": 118.3
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:10",
+        "drainage_volume": 2032.3,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2110.9,
+        "ultrafiltration": -78.6
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:49",
+        "drainage_volume": 2000.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1936.2,
+        "ultrafiltration": 64.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-05",
+      "weight": 57.4,
+      "blood_pressure": "144/100",
+      "total_ultrafiltration": 192.4,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 158.6,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2195.4,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1982.9,
+        "ultrafiltration": 212.5
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:37",
+        "drainage_volume": 2109.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1984.9,
+        "ultrafiltration": 125.0
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "16:23",
+        "drainage_volume": 1977.6,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1968.2,
+        "ultrafiltration": 9.4
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "20:01",
+        "drainage_volume": 1905.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2060.2,
+        "ultrafiltration": -154.5
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-06",
+      "weight": 74.5,
+      "blood_pressure": "145/79",
+      "total_ultrafiltration": 759.5,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 152.8,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2201.1,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1930.8,
+        "ultrafiltration": 270.3
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:13",
+        "drainage_volume": 2013.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2043.6,
+        "ultrafiltration": -29.9
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:36",
+        "drainage_volume": 2286.2,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1975.7,
+        "ultrafiltration": 310.5
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "17:50",
+        "drainage_volume": 2228.8,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2020.2,
+        "ultrafiltration": 208.6
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-07",
+      "weight": 67.6,
+      "blood_pressure": "113/74",
+      "total_ultrafiltration": 190.6,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 103.4,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 1934.1,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 1974.5,
+        "ultrafiltration": -40.4
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "11:37",
+        "drainage_volume": 2066.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2078.8,
+        "ultrafiltration": -12.3
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "15:05",
+        "drainage_volume": 2210.3,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2014.1,
+        "ultrafiltration": 196.2
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:43",
+        "drainage_volume": 2244.1,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2197.0,
+        "ultrafiltration": 47.1
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-08",
+      "weight": 67.4,
+      "blood_pressure": "149/100",
+      "total_ultrafiltration": 420.4,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 156.6,
+      "urine_count": 1,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2005.9,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 1924.4,
+        "ultrafiltration": 81.5
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:22",
+        "drainage_volume": 2120.8,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1947.0,
+        "ultrafiltration": 173.8
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "14:19",
+        "drainage_volume": 2175.7,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2041.0,
+        "ultrafiltration": 134.7
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "17:48",
+        "drainage_volume": 2015.2,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 1984.8,
+        "ultrafiltration": 30.4
+      }
+    ]
+  },
+  {
+    "daily_data": {
+      "date": "2026-02-09",
+      "weight": 68.7,
+      "blood_pressure": "126/95",
+      "total_ultrafiltration": 72.0,
+      "turbid_peritoneal": false,
+      "fasting_blood_glucose": 161.2,
+      "urine_count": 4,
+      "note": null
+    },
+    "exchange_records": [
+      {
+        "session_number": 1,
+        "exchange_time": "07:00",
+        "drainage_volume": 2273.5,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2027.5,
+        "ultrafiltration": 246.0
+      },
+      {
+        "session_number": 2,
+        "exchange_time": "10:28",
+        "drainage_volume": 2159.1,
+        "infusion_concentration": 1.5,
+        "infusion_weight": 2172.5,
+        "ultrafiltration": -13.4
+      },
+      {
+        "session_number": 3,
+        "exchange_time": "13:37",
+        "drainage_volume": 1923.9,
+        "infusion_concentration": 4.25,
+        "infusion_weight": 2137.8,
+        "ultrafiltration": -213.9
+      },
+      {
+        "session_number": 4,
+        "exchange_time": "18:12",
+        "drainage_volume": 2229.7,
+        "infusion_concentration": 2.5,
+        "infusion_weight": 2176.4,
+        "ultrafiltration": 53.3
+      }
+    ]
+  }
+]

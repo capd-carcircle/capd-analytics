@@ -1,0 +1,12 @@
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+*.iml
+.idea/
+.vscode/
+*.log
+
+# 로컬 DB 접속정보 (커밋 금지)
+application-local.yml
+.env

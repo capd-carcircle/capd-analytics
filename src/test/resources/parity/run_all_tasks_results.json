@@ -1,0 +1,2177 @@
+{
+  "7": {
+    "trend_analysis": {
+      "task": "trend_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "unit": "kg",
+          "previous_30d_mean": 65.27,
+          "difference_from_30d_mean": 3.43,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 64.56,
+          "difference_from_7d_mean": 4.14,
+          "percentage_change_from_7d_mean": 6.4,
+          "trend_7d": "much_higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 68.7 kg. 30일 평균 65.27 kg 대비 +3.43 kg (much_higher_than_baseline). 7일 평균 64.56 kg 대비 +4.14 kg (much_higher_than_baseline)."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 139.07,
+          "difference_from_30d_mean": -13.07,
+          "trend_30d": "lower_than_baseline",
+          "previous_7d_mean": 142.14,
+          "difference_from_7d_mean": -16.14,
+          "percentage_change_from_7d_mean": -11.4,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "lower_than_baseline",
+          "statement": "오늘 값 126.0 mmHg. 30일 평균 139.07 mmHg 대비 -13.07 mmHg (lower_than_baseline). 7일 평균 142.14 mmHg 대비 -16.14 mmHg (much_lower_than_baseline)."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 84.83,
+          "difference_from_30d_mean": 10.17,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 88.57,
+          "difference_from_7d_mean": 6.43,
+          "percentage_change_from_7d_mean": 7.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 95.0 mmHg. 30일 평균 84.83 mmHg 대비 +10.17 mmHg (much_higher_than_baseline). 7일 평균 88.57 mmHg 대비 +6.43 mmHg (higher_than_baseline)."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "unit": "mmHg",
+          "previous_30d_mean": 102.91,
+          "difference_from_30d_mean": 2.39,
+          "trend_30d": "stable",
+          "previous_7d_mean": 106.43,
+          "difference_from_7d_mean": -1.13,
+          "percentage_change_from_7d_mean": -1.1,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 105.3 mmHg. 30일 평균 102.91 mmHg 대비 +2.39 mmHg (stable). 7일 평균 106.43 mmHg 대비 -1.13 mmHg (stable)."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "unit": "mg/dL",
+          "previous_30d_mean": 136.21,
+          "difference_from_30d_mean": 24.99,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 133.94,
+          "difference_from_7d_mean": 27.26,
+          "percentage_change_from_7d_mean": 20.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 161.2 mg/dL. 30일 평균 136.21 mg/dL 대비 +24.99 mg/dL (higher_than_baseline). 7일 평균 133.94 mg/dL 대비 +27.26 mg/dL (higher_than_baseline)."
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 1.7,
+          "difference_from_30d_mean": 2.3,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 2.14,
+          "difference_from_7d_mean": 1.86,
+          "percentage_change_from_7d_mean": 86.7,
+          "trend_7d": "stable",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.0 회. 30일 평균 1.7 회 대비 +2.30 회 (higher_than_baseline). 7일 평균 2.14 회 대비 +1.86 회 (stable)."
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 4.0,
+          "difference_from_30d_mean": 0.0,
+          "trend_30d": "stable",
+          "previous_7d_mean": 4.0,
+          "difference_from_7d_mean": 0.0,
+          "percentage_change_from_7d_mean": 0.0,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 4.0 회. 30일 평균 4.0 회 대비 +0.00 회 (stable). 7일 평균 4.0 회 대비 +0.00 회 (stable)."
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "unit": "분",
+          "previous_30d_mean": 236.73,
+          "difference_from_30d_mean": -12.73,
+          "trend_30d": "stable",
+          "previous_7d_mean": 237.94,
+          "difference_from_7d_mean": -13.94,
+          "percentage_change_from_7d_mean": -5.9,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 224.0 분. 30일 평균 236.73 분 대비 -12.73 분 (stable). 7일 평균 237.94 분 대비 -13.94 분 (stable)."
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "unit": "%",
+          "previous_30d_mean": 3.66,
+          "difference_from_30d_mean": 0.59,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 3.75,
+          "difference_from_7d_mean": 0.5,
+          "percentage_change_from_7d_mean": 13.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.25 %. 30일 평균 3.66 % 대비 +0.59 % (higher_than_baseline). 7일 평균 3.75 % 대비 +0.50 % (higher_than_baseline)."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "unit": "g",
+          "previous_30d_mean": 139.82,
+          "difference_from_30d_mean": -67.82,
+          "trend_30d": "much_lower_than_baseline",
+          "previous_7d_mean": 369.03,
+          "difference_from_7d_mean": -297.03,
+          "percentage_change_from_7d_mean": -80.5,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "much_lower_than_baseline",
+          "statement": "오늘 값 72.0 g. 30일 평균 139.82 g 대비 -67.82 g (much_lower_than_baseline). 7일 평균 369.03 g 대비 -297.03 g (much_lower_than_baseline)."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "unit": "g",
+          "previous_30d_mean": 8193.26,
+          "difference_from_30d_mean": 320.94,
+          "trend_30d": "stable",
+          "previous_7d_mean": 8092.81,
+          "difference_from_7d_mean": 421.39,
+          "percentage_change_from_7d_mean": 5.2,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 8514.2 g. 30일 평균 8193.26 g 대비 +320.94 g (stable). 7일 평균 8092.81 g 대비 +421.39 g (stable)."
+        }
+      }
+    },
+    "anomaly_detection": {
+      "task": "anomaly_detection",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "baseline_mean": 65.27,
+          "baseline_std": 5.16,
+          "z_score_30d": 0.665,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.466,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 68.7 kg, 30일 평균 65.27 kg, 표준편차 5.16 kg. Rolling z-score: 0.665 -> normal. Robust z-score: 0.466 -> normal."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "baseline_mean": 139.82,
+          "baseline_std": 286.5,
+          "z_score_30d": -0.237,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.016,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 72.0 g, 30일 평균 139.82 g, 표준편차 286.5 g. Rolling z-score: -0.237 -> normal. Robust z-score: 0.016 -> normal."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "baseline_mean": 139.07,
+          "baseline_std": 14.09,
+          "z_score_30d": -0.927,
+          "z_interpretation": "normal",
+          "robust_z_score": -1.391,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 126.0 mmHg, 30일 평균 139.07 mmHg, 표준편차 14.09 mmHg. Rolling z-score: -0.927 -> normal. Robust z-score: -1.391 -> normal."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "baseline_mean": 84.83,
+          "baseline_std": 10.93,
+          "z_score_30d": 0.93,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.546,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 95.0 mmHg, 30일 평균 84.83 mmHg, 표준편차 10.93 mmHg. Rolling z-score: 0.93 -> normal. Robust z-score: 0.546 -> normal."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "baseline_mean": 102.91,
+          "baseline_std": 8.67,
+          "z_score_30d": 0.275,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.327,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 105.3 mmHg, 30일 평균 102.91 mmHg, 표준편차 8.67 mmHg. Rolling z-score: 0.275 -> normal. Robust z-score: 0.327 -> normal."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "baseline_mean": 136.21,
+          "baseline_std": 29.3,
+          "z_score_30d": 0.853,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.42,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 161.2 mg/dL, 30일 평균 136.21 mg/dL, 표준편차 29.3 mg/dL. Rolling z-score: 0.853 -> normal. Robust z-score: 0.42 -> normal."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "baseline_mean": 8193.26,
+          "baseline_std": 175.55,
+          "z_score_30d": 1.828,
+          "z_interpretation": "normal",
+          "robust_z_score": 2.12,
+          "robust_interpretation": "mild_anomaly",
+          "is_anomaly": true,
+          "sufficient_data": true,
+          "statement": "오늘 값 8514.2 g, 30일 평균 8193.26 g, 표준편차 175.55 g. Rolling z-score: 1.828 -> normal. Robust z-score: 2.12 -> mild_anomaly."
+        }
+      }
+    },
+    "attribute_correlation": {
+      "task": "attribute_correlation",
+      "method": "spearman_correlation",
+      "window_days": 7,
+      "results": [
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.927,
+          "direction": "positive",
+          "interpretation": "very strong",
+          "statement": "diastolic_bp and mean_arterial_pressure has a correlation of 0.927 showing a very strong positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.857,
+          "direction": "negative",
+          "interpretation": "strong",
+          "statement": "body_weight_kg and dwell_mean_minutes has a correlation of -0.857 showing a strong negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "urination_count",
+          "correlation": -0.837,
+          "direction": "negative",
+          "interpretation": "strong",
+          "statement": "systolic_bp and urination_count has a correlation of -0.837 showing a strong negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.821,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "mean_arterial_pressure and fasting_blood_sugar has a correlation of 0.821 showing a strong positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.815,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "diastolic_bp and fasting_blood_sugar has a correlation of 0.815 showing a strong positive correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "concentration_max",
+          "correlation": 0.791,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "infused_sum_g and concentration_max has a correlation of 0.791 showing a strong positive correlation."
+        },
+        {
+          "attr1": "dwell_mean_minutes",
+          "attr2": "concentration_max",
+          "correlation": 0.791,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "dwell_mean_minutes and concentration_max has a correlation of 0.791 showing a strong positive correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "infused_sum_g",
+          "correlation": -0.75,
+          "direction": "negative",
+          "interpretation": "strong",
+          "statement": "fasting_blood_sugar and infused_sum_g has a correlation of -0.75 showing a strong negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "concentration_max",
+          "correlation": -0.632,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "body_weight_kg and concentration_max has a correlation of -0.632 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "concentration_max",
+          "correlation": -0.632,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and concentration_max has a correlation of -0.632 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "infused_sum_g",
+          "correlation": 0.618,
+          "direction": "positive",
+          "interpretation": "moderate",
+          "statement": "urination_count and infused_sum_g has a correlation of 0.618 showing a moderate positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": -0.607,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "systolic_bp and infused_sum_g has a correlation of -0.607 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "infused_sum_g",
+          "correlation": -0.607,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "mean_arterial_pressure and infused_sum_g has a correlation of -0.607 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "diastolic_bp",
+          "correlation": -0.556,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "body_weight_kg and diastolic_bp has a correlation of -0.556 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.536,
+          "direction": "positive",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and fasting_blood_sugar has a correlation of 0.536 showing a moderate positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "infused_sum_g",
+          "correlation": -0.536,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and infused_sum_g has a correlation of -0.536 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "concentration_max",
+          "correlation": 0.529,
+          "direction": "positive",
+          "interpretation": "moderate",
+          "statement": "urination_count and concentration_max has a correlation of 0.529 showing a moderate positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "diastolic_bp",
+          "correlation": 0.519,
+          "direction": "positive",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and diastolic_bp has a correlation of 0.519 showing a moderate positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "mean_arterial_pressure",
+          "correlation": -0.5,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "body_weight_kg and mean_arterial_pressure has a correlation of -0.5 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": -0.482,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and infused_sum_g has a correlation of -0.482 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "concentration_max",
+          "correlation": -0.474,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and concentration_max has a correlation of -0.474 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "concentration_max",
+          "correlation": -0.474,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and concentration_max has a correlation of -0.474 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.429,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and mean_arterial_pressure has a correlation of 0.429 showing a weak positive correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.429,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "infused_sum_g and dwell_mean_minutes has a correlation of 0.429 showing a weak positive correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "urination_count",
+          "correlation": -0.418,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and urination_count has a correlation of -0.418 showing a weak negative correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.418,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and dwell_mean_minutes has a correlation of 0.418 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.357,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and dwell_mean_minutes has a correlation of -0.357 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "urination_count",
+          "correlation": -0.319,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and urination_count has a correlation of -0.319 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "concentration_max",
+          "correlation": -0.316,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and concentration_max has a correlation of -0.316 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.296,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and dwell_mean_minutes has a correlation of 0.296 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "fasting_blood_sugar",
+          "correlation": -0.25,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and fasting_blood_sugar has a correlation of -0.25 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.25,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and mean_arterial_pressure has a correlation of 0.25 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "calculated_uf_sum_g",
+          "correlation": 0.179,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and calculated_uf_sum_g has a correlation of 0.179 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "infused_sum_g",
+          "correlation": -0.179,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and infused_sum_g has a correlation of -0.179 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "concentration_max",
+          "correlation": -0.164,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and concentration_max has a correlation of -0.164 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.143,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and fasting_blood_sugar has a correlation of 0.143 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "systolic_bp",
+          "correlation": 0.107,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and systolic_bp has a correlation of 0.107 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.107,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and dwell_mean_minutes has a correlation of -0.107 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.107,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and dwell_mean_minutes has a correlation of 0.107 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "urination_count",
+          "correlation": -0.1,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and urination_count has a correlation of -0.1 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "diastolic_bp",
+          "correlation": -0.074,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and diastolic_bp has a correlation of -0.074 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.036,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and dwell_mean_minutes has a correlation of -0.036 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "systolic_bp",
+          "correlation": 0.0,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and systolic_bp has a correlation of 0.0 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "urination_count",
+          "correlation": 0.0,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and urination_count has a correlation of 0.0 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "urination_count",
+          "correlation": 0.0,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and urination_count has a correlation of 0.0 showing a weak negative correlation."
+        }
+      ]
+    },
+    "eda": {
+      "task": "exploratory_data_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "recent_30d_mean": 65.27,
+          "recent_30d_std": 5.16,
+          "recent_30d_min": 55.4,
+          "recent_30d_max": 74.5,
+          "recent_7d_mean": 64.56,
+          "recent_7d_min": 57.4,
+          "recent_7d_max": 74.5
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "recent_30d_mean": 139.82,
+          "recent_30d_std": 286.5,
+          "recent_30d_min": -268.0,
+          "recent_30d_max": 759.5,
+          "recent_7d_mean": 369.03,
+          "recent_7d_min": 2.2,
+          "recent_7d_max": 759.5
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "recent_30d_mean": 139.07,
+          "recent_30d_std": 14.09,
+          "recent_30d_min": 110.0,
+          "recent_30d_max": 160.0,
+          "recent_7d_mean": 142.14,
+          "recent_7d_min": 113.0,
+          "recent_7d_max": 160.0
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "recent_30d_mean": 84.83,
+          "recent_30d_std": 10.93,
+          "recent_30d_min": 70.0,
+          "recent_30d_max": 100.0,
+          "recent_7d_mean": 88.57,
+          "recent_7d_min": 70.0,
+          "recent_7d_max": 100.0
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "recent_30d_mean": 102.91,
+          "recent_30d_std": 8.67,
+          "recent_30d_min": 85.7,
+          "recent_30d_max": 116.7,
+          "recent_7d_mean": 106.43,
+          "recent_7d_min": 87.0,
+          "recent_7d_max": 116.3
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "recent_30d_mean": 136.21,
+          "recent_30d_std": 29.3,
+          "recent_30d_min": 90.7,
+          "recent_30d_max": 180.0,
+          "recent_7d_mean": 133.94,
+          "recent_7d_min": 98.4,
+          "recent_7d_max": 158.6
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 1.7,
+          "recent_30d_std": 1.44,
+          "recent_30d_min": 0.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 2.14,
+          "recent_7d_min": 1.0,
+          "recent_7d_max": 4.0
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 4.0,
+          "recent_30d_std": 0.0,
+          "recent_30d_min": 4.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 4.0,
+          "recent_7d_min": 4.0,
+          "recent_7d_max": 4.0
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "recent_30d_mean": 8193.26,
+          "recent_30d_std": 175.55,
+          "recent_30d_min": 7838.1,
+          "recent_30d_max": 8599.7,
+          "recent_7d_mean": 8092.81,
+          "recent_7d_min": 7897.2,
+          "recent_7d_max": 8292.0
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "recent_30d_mean": 236.73,
+          "recent_30d_std": 13.73,
+          "recent_30d_min": 211.7,
+          "recent_30d_max": 260.7,
+          "recent_7d_mean": 237.94,
+          "recent_7d_min": 216.0,
+          "recent_7d_max": 260.7
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "recent_30d_mean": 3.66,
+          "recent_30d_std": 0.95,
+          "recent_30d_min": 1.5,
+          "recent_30d_max": 4.25,
+          "recent_7d_mean": 3.75,
+          "recent_7d_min": 2.5,
+          "recent_7d_max": 4.25
+        }
+      }
+    },
+    "has_anomaly": true,
+    "anomaly_attrs": [
+      "infused_sum_g"
+    ]
+  },
+  "30": {
+    "trend_analysis": {
+      "task": "trend_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "unit": "kg",
+          "previous_30d_mean": 65.27,
+          "difference_from_30d_mean": 3.43,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 64.56,
+          "difference_from_7d_mean": 4.14,
+          "percentage_change_from_7d_mean": 6.4,
+          "trend_7d": "much_higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 68.7 kg. 30일 평균 65.27 kg 대비 +3.43 kg (much_higher_than_baseline). 7일 평균 64.56 kg 대비 +4.14 kg (much_higher_than_baseline)."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 139.07,
+          "difference_from_30d_mean": -13.07,
+          "trend_30d": "lower_than_baseline",
+          "previous_7d_mean": 142.14,
+          "difference_from_7d_mean": -16.14,
+          "percentage_change_from_7d_mean": -11.4,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "lower_than_baseline",
+          "statement": "오늘 값 126.0 mmHg. 30일 평균 139.07 mmHg 대비 -13.07 mmHg (lower_than_baseline). 7일 평균 142.14 mmHg 대비 -16.14 mmHg (much_lower_than_baseline)."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 84.83,
+          "difference_from_30d_mean": 10.17,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 88.57,
+          "difference_from_7d_mean": 6.43,
+          "percentage_change_from_7d_mean": 7.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 95.0 mmHg. 30일 평균 84.83 mmHg 대비 +10.17 mmHg (much_higher_than_baseline). 7일 평균 88.57 mmHg 대비 +6.43 mmHg (higher_than_baseline)."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "unit": "mmHg",
+          "previous_30d_mean": 102.91,
+          "difference_from_30d_mean": 2.39,
+          "trend_30d": "stable",
+          "previous_7d_mean": 106.43,
+          "difference_from_7d_mean": -1.13,
+          "percentage_change_from_7d_mean": -1.1,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 105.3 mmHg. 30일 평균 102.91 mmHg 대비 +2.39 mmHg (stable). 7일 평균 106.43 mmHg 대비 -1.13 mmHg (stable)."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "unit": "mg/dL",
+          "previous_30d_mean": 136.21,
+          "difference_from_30d_mean": 24.99,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 133.94,
+          "difference_from_7d_mean": 27.26,
+          "percentage_change_from_7d_mean": 20.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 161.2 mg/dL. 30일 평균 136.21 mg/dL 대비 +24.99 mg/dL (higher_than_baseline). 7일 평균 133.94 mg/dL 대비 +27.26 mg/dL (higher_than_baseline)."
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 1.7,
+          "difference_from_30d_mean": 2.3,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 2.14,
+          "difference_from_7d_mean": 1.86,
+          "percentage_change_from_7d_mean": 86.7,
+          "trend_7d": "stable",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.0 회. 30일 평균 1.7 회 대비 +2.30 회 (higher_than_baseline). 7일 평균 2.14 회 대비 +1.86 회 (stable)."
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 4.0,
+          "difference_from_30d_mean": 0.0,
+          "trend_30d": "stable",
+          "previous_7d_mean": 4.0,
+          "difference_from_7d_mean": 0.0,
+          "percentage_change_from_7d_mean": 0.0,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 4.0 회. 30일 평균 4.0 회 대비 +0.00 회 (stable). 7일 평균 4.0 회 대비 +0.00 회 (stable)."
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "unit": "분",
+          "previous_30d_mean": 236.73,
+          "difference_from_30d_mean": -12.73,
+          "trend_30d": "stable",
+          "previous_7d_mean": 237.94,
+          "difference_from_7d_mean": -13.94,
+          "percentage_change_from_7d_mean": -5.9,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 224.0 분. 30일 평균 236.73 분 대비 -12.73 분 (stable). 7일 평균 237.94 분 대비 -13.94 분 (stable)."
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "unit": "%",
+          "previous_30d_mean": 3.66,
+          "difference_from_30d_mean": 0.59,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 3.75,
+          "difference_from_7d_mean": 0.5,
+          "percentage_change_from_7d_mean": 13.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.25 %. 30일 평균 3.66 % 대비 +0.59 % (higher_than_baseline). 7일 평균 3.75 % 대비 +0.50 % (higher_than_baseline)."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "unit": "g",
+          "previous_30d_mean": 139.82,
+          "difference_from_30d_mean": -67.82,
+          "trend_30d": "much_lower_than_baseline",
+          "previous_7d_mean": 369.03,
+          "difference_from_7d_mean": -297.03,
+          "percentage_change_from_7d_mean": -80.5,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "much_lower_than_baseline",
+          "statement": "오늘 값 72.0 g. 30일 평균 139.82 g 대비 -67.82 g (much_lower_than_baseline). 7일 평균 369.03 g 대비 -297.03 g (much_lower_than_baseline)."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "unit": "g",
+          "previous_30d_mean": 8193.26,
+          "difference_from_30d_mean": 320.94,
+          "trend_30d": "stable",
+          "previous_7d_mean": 8092.81,
+          "difference_from_7d_mean": 421.39,
+          "percentage_change_from_7d_mean": 5.2,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 8514.2 g. 30일 평균 8193.26 g 대비 +320.94 g (stable). 7일 평균 8092.81 g 대비 +421.39 g (stable)."
+        }
+      }
+    },
+    "anomaly_detection": {
+      "task": "anomaly_detection",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "baseline_mean": 65.27,
+          "baseline_std": 5.16,
+          "z_score_30d": 0.665,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.466,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 68.7 kg, 30일 평균 65.27 kg, 표준편차 5.16 kg. Rolling z-score: 0.665 -> normal. Robust z-score: 0.466 -> normal."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "baseline_mean": 139.82,
+          "baseline_std": 286.5,
+          "z_score_30d": -0.237,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.016,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 72.0 g, 30일 평균 139.82 g, 표준편차 286.5 g. Rolling z-score: -0.237 -> normal. Robust z-score: 0.016 -> normal."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "baseline_mean": 139.07,
+          "baseline_std": 14.09,
+          "z_score_30d": -0.927,
+          "z_interpretation": "normal",
+          "robust_z_score": -1.391,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 126.0 mmHg, 30일 평균 139.07 mmHg, 표준편차 14.09 mmHg. Rolling z-score: -0.927 -> normal. Robust z-score: -1.391 -> normal."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "baseline_mean": 84.83,
+          "baseline_std": 10.93,
+          "z_score_30d": 0.93,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.546,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 95.0 mmHg, 30일 평균 84.83 mmHg, 표준편차 10.93 mmHg. Rolling z-score: 0.93 -> normal. Robust z-score: 0.546 -> normal."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "baseline_mean": 102.91,
+          "baseline_std": 8.67,
+          "z_score_30d": 0.275,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.327,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 105.3 mmHg, 30일 평균 102.91 mmHg, 표준편차 8.67 mmHg. Rolling z-score: 0.275 -> normal. Robust z-score: 0.327 -> normal."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "baseline_mean": 136.21,
+          "baseline_std": 29.3,
+          "z_score_30d": 0.853,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.42,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 161.2 mg/dL, 30일 평균 136.21 mg/dL, 표준편차 29.3 mg/dL. Rolling z-score: 0.853 -> normal. Robust z-score: 0.42 -> normal."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "baseline_mean": 8193.26,
+          "baseline_std": 175.55,
+          "z_score_30d": 1.828,
+          "z_interpretation": "normal",
+          "robust_z_score": 2.12,
+          "robust_interpretation": "mild_anomaly",
+          "is_anomaly": true,
+          "sufficient_data": true,
+          "statement": "오늘 값 8514.2 g, 30일 평균 8193.26 g, 표준편차 175.55 g. Rolling z-score: 1.828 -> normal. Robust z-score: 2.12 -> mild_anomaly."
+        }
+      }
+    },
+    "attribute_correlation": {
+      "task": "attribute_correlation",
+      "method": "spearman_correlation",
+      "window_days": 30,
+      "results": [
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.838,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "diastolic_bp and mean_arterial_pressure has a correlation of 0.838 showing a strong positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "infused_sum_g",
+          "correlation": -0.576,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and infused_sum_g has a correlation of -0.576 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.468,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and mean_arterial_pressure has a correlation of 0.468 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.402,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and dwell_mean_minutes has a correlation of -0.402 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "diastolic_bp",
+          "correlation": 0.372,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and diastolic_bp has a correlation of 0.372 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "systolic_bp",
+          "correlation": -0.323,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and systolic_bp has a correlation of -0.323 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "concentration_max",
+          "correlation": -0.308,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and concentration_max has a correlation of -0.308 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.27,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and dwell_mean_minutes has a correlation of 0.27 showing a weak positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.237,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and fasting_blood_sugar has a correlation of 0.237 showing a weak positive correlation."
+        },
+        {
+          "attr1": "dwell_mean_minutes",
+          "attr2": "concentration_max",
+          "correlation": 0.221,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "dwell_mean_minutes and concentration_max has a correlation of 0.221 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.218,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and mean_arterial_pressure has a correlation of 0.218 showing a weak positive correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "infused_sum_g",
+          "correlation": 0.207,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and infused_sum_g has a correlation of 0.207 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "calculated_uf_sum_g",
+          "correlation": 0.195,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and calculated_uf_sum_g has a correlation of 0.195 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "systolic_bp",
+          "correlation": -0.176,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and systolic_bp has a correlation of -0.176 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "urination_count",
+          "correlation": -0.17,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and urination_count has a correlation of -0.17 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "mean_arterial_pressure",
+          "correlation": -0.165,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and mean_arterial_pressure has a correlation of -0.165 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "concentration_max",
+          "correlation": -0.162,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and concentration_max has a correlation of -0.162 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.157,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and dwell_mean_minutes has a correlation of 0.157 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "concentration_max",
+          "correlation": -0.155,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and concentration_max has a correlation of -0.155 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "concentration_max",
+          "correlation": -0.152,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and concentration_max has a correlation of -0.152 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.145,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and fasting_blood_sugar has a correlation of 0.145 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": -0.144,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and fasting_blood_sugar has a correlation of -0.144 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "infused_sum_g",
+          "correlation": -0.128,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and infused_sum_g has a correlation of -0.128 showing a weak negative correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "concentration_max",
+          "correlation": 0.12,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and concentration_max has a correlation of 0.12 showing a weak positive correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.105,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and dwell_mean_minutes has a correlation of 0.105 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "concentration_max",
+          "correlation": -0.1,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and concentration_max has a correlation of -0.1 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.098,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and dwell_mean_minutes has a correlation of 0.098 showing a weak positive correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "concentration_max",
+          "correlation": -0.094,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "infused_sum_g and concentration_max has a correlation of -0.094 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "concentration_max",
+          "correlation": -0.09,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and concentration_max has a correlation of -0.09 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.089,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and dwell_mean_minutes has a correlation of -0.089 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "urination_count",
+          "correlation": 0.084,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and urination_count has a correlation of 0.084 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.076,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and fasting_blood_sugar has a correlation of 0.076 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "infused_sum_g",
+          "correlation": 0.055,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and infused_sum_g has a correlation of 0.055 showing a weak positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": -0.054,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and infused_sum_g has a correlation of -0.054 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "urination_count",
+          "correlation": 0.039,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and urination_count has a correlation of 0.039 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "diastolic_bp",
+          "correlation": -0.026,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and diastolic_bp has a correlation of -0.026 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "diastolic_bp",
+          "correlation": -0.025,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and diastolic_bp has a correlation of -0.025 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "infused_sum_g",
+          "correlation": 0.025,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and infused_sum_g has a correlation of 0.025 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": -0.021,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and infused_sum_g has a correlation of -0.021 showing a weak negative correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.021,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "infused_sum_g and dwell_mean_minutes has a correlation of 0.021 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "fasting_blood_sugar",
+          "correlation": -0.016,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and fasting_blood_sugar has a correlation of -0.016 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "urination_count",
+          "correlation": -0.016,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and urination_count has a correlation of -0.016 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "urination_count",
+          "correlation": 0.011,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and urination_count has a correlation of 0.011 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.005,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and dwell_mean_minutes has a correlation of -0.005 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "urination_count",
+          "correlation": -0.002,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and urination_count has a correlation of -0.002 showing a weak negative correlation."
+        }
+      ]
+    },
+    "eda": {
+      "task": "exploratory_data_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "recent_30d_mean": 65.27,
+          "recent_30d_std": 5.16,
+          "recent_30d_min": 55.4,
+          "recent_30d_max": 74.5,
+          "recent_7d_mean": 64.56,
+          "recent_7d_min": 57.4,
+          "recent_7d_max": 74.5
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "recent_30d_mean": 139.82,
+          "recent_30d_std": 286.5,
+          "recent_30d_min": -268.0,
+          "recent_30d_max": 759.5,
+          "recent_7d_mean": 369.03,
+          "recent_7d_min": 2.2,
+          "recent_7d_max": 759.5
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "recent_30d_mean": 139.07,
+          "recent_30d_std": 14.09,
+          "recent_30d_min": 110.0,
+          "recent_30d_max": 160.0,
+          "recent_7d_mean": 142.14,
+          "recent_7d_min": 113.0,
+          "recent_7d_max": 160.0
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "recent_30d_mean": 84.83,
+          "recent_30d_std": 10.93,
+          "recent_30d_min": 70.0,
+          "recent_30d_max": 100.0,
+          "recent_7d_mean": 88.57,
+          "recent_7d_min": 70.0,
+          "recent_7d_max": 100.0
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "recent_30d_mean": 102.91,
+          "recent_30d_std": 8.67,
+          "recent_30d_min": 85.7,
+          "recent_30d_max": 116.7,
+          "recent_7d_mean": 106.43,
+          "recent_7d_min": 87.0,
+          "recent_7d_max": 116.3
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "recent_30d_mean": 136.21,
+          "recent_30d_std": 29.3,
+          "recent_30d_min": 90.7,
+          "recent_30d_max": 180.0,
+          "recent_7d_mean": 133.94,
+          "recent_7d_min": 98.4,
+          "recent_7d_max": 158.6
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 1.7,
+          "recent_30d_std": 1.44,
+          "recent_30d_min": 0.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 2.14,
+          "recent_7d_min": 1.0,
+          "recent_7d_max": 4.0
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 4.0,
+          "recent_30d_std": 0.0,
+          "recent_30d_min": 4.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 4.0,
+          "recent_7d_min": 4.0,
+          "recent_7d_max": 4.0
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "recent_30d_mean": 8193.26,
+          "recent_30d_std": 175.55,
+          "recent_30d_min": 7838.1,
+          "recent_30d_max": 8599.7,
+          "recent_7d_mean": 8092.81,
+          "recent_7d_min": 7897.2,
+          "recent_7d_max": 8292.0
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "recent_30d_mean": 236.73,
+          "recent_30d_std": 13.73,
+          "recent_30d_min": 211.7,
+          "recent_30d_max": 260.7,
+          "recent_7d_mean": 237.94,
+          "recent_7d_min": 216.0,
+          "recent_7d_max": 260.7
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "recent_30d_mean": 3.66,
+          "recent_30d_std": 0.95,
+          "recent_30d_min": 1.5,
+          "recent_30d_max": 4.25,
+          "recent_7d_mean": 3.75,
+          "recent_7d_min": 2.5,
+          "recent_7d_max": 4.25
+        }
+      }
+    },
+    "has_anomaly": true,
+    "anomaly_attrs": [
+      "infused_sum_g"
+    ]
+  },
+  "90": {
+    "trend_analysis": {
+      "task": "trend_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "unit": "kg",
+          "previous_30d_mean": 65.27,
+          "difference_from_30d_mean": 3.43,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 64.56,
+          "difference_from_7d_mean": 4.14,
+          "percentage_change_from_7d_mean": 6.4,
+          "trend_7d": "much_higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 68.7 kg. 30일 평균 65.27 kg 대비 +3.43 kg (much_higher_than_baseline). 7일 평균 64.56 kg 대비 +4.14 kg (much_higher_than_baseline)."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 139.07,
+          "difference_from_30d_mean": -13.07,
+          "trend_30d": "lower_than_baseline",
+          "previous_7d_mean": 142.14,
+          "difference_from_7d_mean": -16.14,
+          "percentage_change_from_7d_mean": -11.4,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "lower_than_baseline",
+          "statement": "오늘 값 126.0 mmHg. 30일 평균 139.07 mmHg 대비 -13.07 mmHg (lower_than_baseline). 7일 평균 142.14 mmHg 대비 -16.14 mmHg (much_lower_than_baseline)."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "unit": "mmHg",
+          "previous_30d_mean": 84.83,
+          "difference_from_30d_mean": 10.17,
+          "trend_30d": "much_higher_than_baseline",
+          "previous_7d_mean": 88.57,
+          "difference_from_7d_mean": 6.43,
+          "percentage_change_from_7d_mean": 7.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "much_higher_than_baseline",
+          "statement": "오늘 값 95.0 mmHg. 30일 평균 84.83 mmHg 대비 +10.17 mmHg (much_higher_than_baseline). 7일 평균 88.57 mmHg 대비 +6.43 mmHg (higher_than_baseline)."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "unit": "mmHg",
+          "previous_30d_mean": 102.91,
+          "difference_from_30d_mean": 2.39,
+          "trend_30d": "stable",
+          "previous_7d_mean": 106.43,
+          "difference_from_7d_mean": -1.13,
+          "percentage_change_from_7d_mean": -1.1,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 105.3 mmHg. 30일 평균 102.91 mmHg 대비 +2.39 mmHg (stable). 7일 평균 106.43 mmHg 대비 -1.13 mmHg (stable)."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "unit": "mg/dL",
+          "previous_30d_mean": 136.21,
+          "difference_from_30d_mean": 24.99,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 133.94,
+          "difference_from_7d_mean": 27.26,
+          "percentage_change_from_7d_mean": 20.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 161.2 mg/dL. 30일 평균 136.21 mg/dL 대비 +24.99 mg/dL (higher_than_baseline). 7일 평균 133.94 mg/dL 대비 +27.26 mg/dL (higher_than_baseline)."
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 1.7,
+          "difference_from_30d_mean": 2.3,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 2.14,
+          "difference_from_7d_mean": 1.86,
+          "percentage_change_from_7d_mean": 86.7,
+          "trend_7d": "stable",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.0 회. 30일 평균 1.7 회 대비 +2.30 회 (higher_than_baseline). 7일 평균 2.14 회 대비 +1.86 회 (stable)."
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "unit": "회",
+          "previous_30d_mean": 4.0,
+          "difference_from_30d_mean": 0.0,
+          "trend_30d": "stable",
+          "previous_7d_mean": 4.0,
+          "difference_from_7d_mean": 0.0,
+          "percentage_change_from_7d_mean": 0.0,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 4.0 회. 30일 평균 4.0 회 대비 +0.00 회 (stable). 7일 평균 4.0 회 대비 +0.00 회 (stable)."
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "unit": "분",
+          "previous_30d_mean": 236.73,
+          "difference_from_30d_mean": -12.73,
+          "trend_30d": "stable",
+          "previous_7d_mean": 237.94,
+          "difference_from_7d_mean": -13.94,
+          "percentage_change_from_7d_mean": -5.9,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 224.0 분. 30일 평균 236.73 분 대비 -12.73 분 (stable). 7일 평균 237.94 분 대비 -13.94 분 (stable)."
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "unit": "%",
+          "previous_30d_mean": 3.66,
+          "difference_from_30d_mean": 0.59,
+          "trend_30d": "higher_than_baseline",
+          "previous_7d_mean": 3.75,
+          "difference_from_7d_mean": 0.5,
+          "percentage_change_from_7d_mean": 13.3,
+          "trend_7d": "higher_than_baseline",
+          "trend_summary": "higher_than_baseline",
+          "statement": "오늘 값 4.25 %. 30일 평균 3.66 % 대비 +0.59 % (higher_than_baseline). 7일 평균 3.75 % 대비 +0.50 % (higher_than_baseline)."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "unit": "g",
+          "previous_30d_mean": 139.82,
+          "difference_from_30d_mean": -67.82,
+          "trend_30d": "much_lower_than_baseline",
+          "previous_7d_mean": 369.03,
+          "difference_from_7d_mean": -297.03,
+          "percentage_change_from_7d_mean": -80.5,
+          "trend_7d": "much_lower_than_baseline",
+          "trend_summary": "much_lower_than_baseline",
+          "statement": "오늘 값 72.0 g. 30일 평균 139.82 g 대비 -67.82 g (much_lower_than_baseline). 7일 평균 369.03 g 대비 -297.03 g (much_lower_than_baseline)."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "unit": "g",
+          "previous_30d_mean": 8193.26,
+          "difference_from_30d_mean": 320.94,
+          "trend_30d": "stable",
+          "previous_7d_mean": 8092.81,
+          "difference_from_7d_mean": 421.39,
+          "percentage_change_from_7d_mean": 5.2,
+          "trend_7d": "stable",
+          "trend_summary": "stable",
+          "statement": "오늘 값 8514.2 g. 30일 평균 8193.26 g 대비 +320.94 g (stable). 7일 평균 8092.81 g 대비 +421.39 g (stable)."
+        }
+      }
+    },
+    "anomaly_detection": {
+      "task": "anomaly_detection",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "baseline_mean": 65.27,
+          "baseline_std": 5.16,
+          "z_score_30d": 0.665,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.466,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 68.7 kg, 30일 평균 65.27 kg, 표준편차 5.16 kg. Rolling z-score: 0.665 -> normal. Robust z-score: 0.466 -> normal."
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "baseline_mean": 139.82,
+          "baseline_std": 286.5,
+          "z_score_30d": -0.237,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.016,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 72.0 g, 30일 평균 139.82 g, 표준편차 286.5 g. Rolling z-score: -0.237 -> normal. Robust z-score: 0.016 -> normal."
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "baseline_mean": 139.07,
+          "baseline_std": 14.09,
+          "z_score_30d": -0.927,
+          "z_interpretation": "normal",
+          "robust_z_score": -1.391,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 126.0 mmHg, 30일 평균 139.07 mmHg, 표준편차 14.09 mmHg. Rolling z-score: -0.927 -> normal. Robust z-score: -1.391 -> normal."
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "baseline_mean": 84.83,
+          "baseline_std": 10.93,
+          "z_score_30d": 0.93,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.546,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 95.0 mmHg, 30일 평균 84.83 mmHg, 표준편차 10.93 mmHg. Rolling z-score: 0.93 -> normal. Robust z-score: 0.546 -> normal."
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "baseline_mean": 102.91,
+          "baseline_std": 8.67,
+          "z_score_30d": 0.275,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.327,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 105.3 mmHg, 30일 평균 102.91 mmHg, 표준편차 8.67 mmHg. Rolling z-score: 0.275 -> normal. Robust z-score: 0.327 -> normal."
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "baseline_mean": 136.21,
+          "baseline_std": 29.3,
+          "z_score_30d": 0.853,
+          "z_interpretation": "normal",
+          "robust_z_score": 0.42,
+          "robust_interpretation": "normal",
+          "is_anomaly": false,
+          "sufficient_data": true,
+          "statement": "오늘 값 161.2 mg/dL, 30일 평균 136.21 mg/dL, 표준편차 29.3 mg/dL. Rolling z-score: 0.853 -> normal. Robust z-score: 0.42 -> normal."
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "baseline_mean": 8193.26,
+          "baseline_std": 175.55,
+          "z_score_30d": 1.828,
+          "z_interpretation": "normal",
+          "robust_z_score": 2.12,
+          "robust_interpretation": "mild_anomaly",
+          "is_anomaly": true,
+          "sufficient_data": true,
+          "statement": "오늘 값 8514.2 g, 30일 평균 8193.26 g, 표준편차 175.55 g. Rolling z-score: 1.828 -> normal. Robust z-score: 2.12 -> mild_anomaly."
+        }
+      }
+    },
+    "attribute_correlation": {
+      "task": "attribute_correlation",
+      "method": "spearman_correlation",
+      "window_days": 39,
+      "results": [
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.821,
+          "direction": "positive",
+          "interpretation": "strong",
+          "statement": "diastolic_bp and mean_arterial_pressure has a correlation of 0.821 showing a strong positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "infused_sum_g",
+          "correlation": -0.545,
+          "direction": "negative",
+          "interpretation": "moderate",
+          "statement": "calculated_uf_sum_g and infused_sum_g has a correlation of -0.545 showing a moderate negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.442,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and mean_arterial_pressure has a correlation of 0.442 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.437,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and dwell_mean_minutes has a correlation of -0.437 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "systolic_bp",
+          "correlation": -0.386,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and systolic_bp has a correlation of -0.386 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "concentration_max",
+          "correlation": -0.266,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and concentration_max has a correlation of -0.266 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "infused_sum_g",
+          "correlation": -0.233,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and infused_sum_g has a correlation of -0.233 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "mean_arterial_pressure",
+          "correlation": -0.226,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and mean_arterial_pressure has a correlation of -0.226 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.204,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and fasting_blood_sugar has a correlation of 0.204 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "concentration_max",
+          "correlation": -0.189,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and concentration_max has a correlation of -0.189 showing a weak negative correlation."
+        },
+        {
+          "attr1": "dwell_mean_minutes",
+          "attr2": "concentration_max",
+          "correlation": 0.186,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "dwell_mean_minutes and concentration_max has a correlation of 0.186 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "urination_count",
+          "correlation": -0.179,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and urination_count has a correlation of -0.179 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.159,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and dwell_mean_minutes has a correlation of 0.159 showing a weak positive correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "concentration_max",
+          "correlation": 0.152,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and concentration_max has a correlation of 0.152 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "diastolic_bp",
+          "correlation": 0.151,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and diastolic_bp has a correlation of 0.151 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "fasting_blood_sugar",
+          "correlation": -0.148,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and fasting_blood_sugar has a correlation of -0.148 showing a weak negative correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "infused_sum_g",
+          "correlation": 0.138,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and infused_sum_g has a correlation of 0.138 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "infused_sum_g",
+          "correlation": 0.127,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and infused_sum_g has a correlation of 0.127 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "concentration_max",
+          "correlation": -0.126,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and concentration_max has a correlation of -0.126 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.119,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and dwell_mean_minutes has a correlation of 0.119 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "mean_arterial_pressure",
+          "correlation": 0.115,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and mean_arterial_pressure has a correlation of 0.115 showing a weak positive correlation."
+        },
+        {
+          "attr1": "urination_count",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.112,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "urination_count and dwell_mean_minutes has a correlation of 0.112 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.11,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and dwell_mean_minutes has a correlation of 0.11 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.103,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and dwell_mean_minutes has a correlation of 0.103 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "diastolic_bp",
+          "correlation": -0.094,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and diastolic_bp has a correlation of -0.094 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": -0.085,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "systolic_bp and fasting_blood_sugar has a correlation of -0.085 showing a weak negative correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "calculated_uf_sum_g",
+          "correlation": 0.081,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and calculated_uf_sum_g has a correlation of 0.081 showing a weak positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.08,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and fasting_blood_sugar has a correlation of 0.08 showing a weak positive correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "systolic_bp",
+          "correlation": -0.079,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and systolic_bp has a correlation of -0.079 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": 0.079,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and infused_sum_g has a correlation of 0.079 showing a weak positive correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "urination_count",
+          "correlation": 0.074,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and urination_count has a correlation of 0.074 showing a weak positive correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "urination_count",
+          "correlation": 0.073,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and urination_count has a correlation of 0.073 showing a weak positive correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "dwell_mean_minutes",
+          "correlation": -0.071,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "infused_sum_g and dwell_mean_minutes has a correlation of -0.071 showing a weak negative correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "concentration_max",
+          "correlation": -0.066,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and concentration_max has a correlation of -0.066 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "concentration_max",
+          "correlation": -0.065,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and concentration_max has a correlation of -0.065 showing a weak negative correlation."
+        },
+        {
+          "attr1": "fasting_blood_sugar",
+          "attr2": "dwell_mean_minutes",
+          "correlation": 0.062,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "fasting_blood_sugar and dwell_mean_minutes has a correlation of 0.062 showing a weak positive correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "fasting_blood_sugar",
+          "correlation": 0.051,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and fasting_blood_sugar has a correlation of 0.051 showing a weak positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "infused_sum_g",
+          "correlation": -0.048,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and infused_sum_g has a correlation of -0.048 showing a weak negative correlation."
+        },
+        {
+          "attr1": "calculated_uf_sum_g",
+          "attr2": "urination_count",
+          "correlation": 0.041,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "calculated_uf_sum_g and urination_count has a correlation of 0.041 showing a weak positive correlation."
+        },
+        {
+          "attr1": "body_weight_kg",
+          "attr2": "diastolic_bp",
+          "correlation": -0.04,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "body_weight_kg and diastolic_bp has a correlation of -0.04 showing a weak negative correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "urination_count",
+          "correlation": 0.034,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and urination_count has a correlation of 0.034 showing a weak positive correlation."
+        },
+        {
+          "attr1": "infused_sum_g",
+          "attr2": "concentration_max",
+          "correlation": 0.034,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "infused_sum_g and concentration_max has a correlation of 0.034 showing a weak positive correlation."
+        },
+        {
+          "attr1": "systolic_bp",
+          "attr2": "concentration_max",
+          "correlation": 0.031,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "systolic_bp and concentration_max has a correlation of 0.031 showing a weak positive correlation."
+        },
+        {
+          "attr1": "diastolic_bp",
+          "attr2": "urination_count",
+          "correlation": -0.031,
+          "direction": "negative",
+          "interpretation": "weak",
+          "statement": "diastolic_bp and urination_count has a correlation of -0.031 showing a weak negative correlation."
+        },
+        {
+          "attr1": "mean_arterial_pressure",
+          "attr2": "infused_sum_g",
+          "correlation": 0.013,
+          "direction": "positive",
+          "interpretation": "weak",
+          "statement": "mean_arterial_pressure and infused_sum_g has a correlation of 0.013 showing a weak positive correlation."
+        }
+      ]
+    },
+    "eda": {
+      "task": "exploratory_data_analysis",
+      "results": {
+        "body_weight_kg": {
+          "today_value": 68.7,
+          "recent_30d_mean": 65.27,
+          "recent_30d_std": 5.16,
+          "recent_30d_min": 55.4,
+          "recent_30d_max": 74.5,
+          "recent_7d_mean": 64.56,
+          "recent_7d_min": 57.4,
+          "recent_7d_max": 74.5
+        },
+        "calculated_uf_sum_g": {
+          "today_value": 72.0,
+          "recent_30d_mean": 139.82,
+          "recent_30d_std": 286.5,
+          "recent_30d_min": -268.0,
+          "recent_30d_max": 759.5,
+          "recent_7d_mean": 369.03,
+          "recent_7d_min": 2.2,
+          "recent_7d_max": 759.5
+        },
+        "systolic_bp": {
+          "today_value": 126.0,
+          "recent_30d_mean": 139.07,
+          "recent_30d_std": 14.09,
+          "recent_30d_min": 110.0,
+          "recent_30d_max": 160.0,
+          "recent_7d_mean": 142.14,
+          "recent_7d_min": 113.0,
+          "recent_7d_max": 160.0
+        },
+        "diastolic_bp": {
+          "today_value": 95.0,
+          "recent_30d_mean": 84.83,
+          "recent_30d_std": 10.93,
+          "recent_30d_min": 70.0,
+          "recent_30d_max": 100.0,
+          "recent_7d_mean": 88.57,
+          "recent_7d_min": 70.0,
+          "recent_7d_max": 100.0
+        },
+        "mean_arterial_pressure": {
+          "today_value": 105.3,
+          "recent_30d_mean": 102.91,
+          "recent_30d_std": 8.67,
+          "recent_30d_min": 85.7,
+          "recent_30d_max": 116.7,
+          "recent_7d_mean": 106.43,
+          "recent_7d_min": 87.0,
+          "recent_7d_max": 116.3
+        },
+        "fasting_blood_sugar": {
+          "today_value": 161.2,
+          "recent_30d_mean": 136.21,
+          "recent_30d_std": 29.3,
+          "recent_30d_min": 90.7,
+          "recent_30d_max": 180.0,
+          "recent_7d_mean": 133.94,
+          "recent_7d_min": 98.4,
+          "recent_7d_max": 158.6
+        },
+        "urination_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 1.7,
+          "recent_30d_std": 1.44,
+          "recent_30d_min": 0.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 2.14,
+          "recent_7d_min": 1.0,
+          "recent_7d_max": 4.0
+        },
+        "exchange_count": {
+          "today_value": 4.0,
+          "recent_30d_mean": 4.0,
+          "recent_30d_std": 0.0,
+          "recent_30d_min": 4.0,
+          "recent_30d_max": 4.0,
+          "recent_7d_mean": 4.0,
+          "recent_7d_min": 4.0,
+          "recent_7d_max": 4.0
+        },
+        "infused_sum_g": {
+          "today_value": 8514.2,
+          "recent_30d_mean": 8193.26,
+          "recent_30d_std": 175.55,
+          "recent_30d_min": 7838.1,
+          "recent_30d_max": 8599.7,
+          "recent_7d_mean": 8092.81,
+          "recent_7d_min": 7897.2,
+          "recent_7d_max": 8292.0
+        },
+        "dwell_mean_minutes": {
+          "today_value": 224.0,
+          "recent_30d_mean": 236.73,
+          "recent_30d_std": 13.73,
+          "recent_30d_min": 211.7,
+          "recent_30d_max": 260.7,
+          "recent_7d_mean": 237.94,
+          "recent_7d_min": 216.0,
+          "recent_7d_max": 260.7
+        },
+        "concentration_max": {
+          "today_value": 4.25,
+          "recent_30d_mean": 3.66,
+          "recent_30d_std": 0.95,
+          "recent_30d_min": 1.5,
+          "recent_30d_max": 4.25,
+          "recent_7d_mean": 3.75,
+          "recent_7d_min": 2.5,
+          "recent_7d_max": 4.25
+        }
+      }
+    },
+    "has_anomaly": true,
+    "anomaly_attrs": [
+      "infused_sum_g"
+    ]
+  }
+}

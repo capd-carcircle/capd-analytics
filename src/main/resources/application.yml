@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: capd-analytics
+  datasource:
+    # Supabase Session pooler 접속정보는 환경변수로 주입(비밀번호를 이 파일에 커밋하지 말 것).
+    # 예: aws-1-ap-northeast-2.pooler.supabase.com:5432, 계정 postgres.<project-ref>
+    # CLAUDE.md "인프라 메모" 참고 -- 비밀번호에 특수문자 있으면 URL 인코딩 필요.
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/capd}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    com.capd.analytics: INFO
