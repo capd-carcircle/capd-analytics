@@ -168,17 +168,25 @@ class AnalyticsRepository(private val jdbc: NamedParameterJdbcTemplate) {
     // ── Gold 캐시 조회 ────────────────────────────────────────────
 
     /**
-     * patient_daily_analytics(Gold)에 (patient_id, record_date) 캐시가 있고, 그 계산에
-     * 쓰인 historical 개수(correlation_json.window_days)가 이번 요청과 같으면 반환.
-     * backend analytics.py _read_cache와 동일 규칙(신선도 체크는 불필요 -- 상단 주석 참고).
+     * patient_daily_analytics(Gold)에 (patient_id, record_date, window_days) 캐시가
+     * 있으면 반환. window_days가 캐시 키에 포함돼 있어 7/30/90 전환 시 서로 다른
+     * 행에 저장되므로 무효화 없이 각자 캐시를 유지한다 -- backend
+     * analytics.py _read_cache와 동일 규칙(신선도 체크는 불필요 -- 상단 주석 참고).
+     * (2026-07-07 window_days 컬럼 도입 -- backend/scripts/migrate_analytics_cache_window.py
+     *  참고. 예전엔 (patient_id, record_date) 딱 1행뿐이라 correlation_json.window_days를
+     *  꺼내 요청과 비교하는 방식이었는데, window 전환 시마다 서로 캐시를 밀어내던 문제가
+     *  있었음.)
      */
-    fun readCache(patientId: Long, recordDate: LocalDate, expectedHistoricalCount: Int): Map<String, Any?>? {
+    fun readCache(patientId: Long, recordDate: LocalDate, windowDays: Int): Map<String, Any?>? {
         val sql = """
             SELECT trend_json, anomaly_json, correlation_json, eda_json, has_anomaly, anomaly_attrs
             FROM patient_daily_analytics
-            WHERE patient_id = :patientId AND record_date = :recordDate
+            WHERE patient_id = :patientId AND record_date = :recordDate AND window_days = :windowDays
         """.trimIndent()
-        val row = jdbc.query(sql, mapOf("patientId" to patientId, "recordDate" to recordDate)) { rs, _ ->
+        return jdbc.query(
+            sql,
+            mapOf("patientId" to patientId, "recordDate" to recordDate, "windowDays" to windowDays),
+        ) { rs, _ ->
             mapOf(
                 "trend_analysis" to jsonbToMap(rs, "trend_json"),
                 "anomaly_detection" to jsonbToMap(rs, "anomaly_json"),
@@ -187,22 +195,16 @@ class AnalyticsRepository(private val jdbc: NamedParameterJdbcTemplate) {
                 "has_anomaly" to rs.getBoolean("has_anomaly"),
                 "anomaly_attrs" to pgArrayToStringList(rs.getArray("anomaly_attrs")),
             )
-        }.firstOrNull() ?: return null
-
-        @Suppress("UNCHECKED_CAST")
-        val correlation = row["attribute_correlation"] as? Map<String, Any?>
-        val cachedCount = (correlation?.get("window_days") as? Number)?.toInt()
-        if (cachedCount != expectedHistoricalCount) return null // 다른 window로 계산된 캐시 -- 재계산 필요
-        return row
+        }.firstOrNull()
     }
 
     // ── Silver/Gold 캐시 upsert (best-effort) ────────────────────
 
     /** 캐시 실패는 무시(로그만 남기고 응답 자체엔 영향 없음) -- backend _upsert_cache와 동일 정책. */
-    fun upsertCache(patientId: Long, recordDate: LocalDate, todayRow: Map<String, Any?>, result: Map<String, Any?>) {
+    fun upsertCache(patientId: Long, recordDate: LocalDate, windowDays: Int, todayRow: Map<String, Any?>, result: Map<String, Any?>) {
         try {
             upsertSilver(patientId, recordDate, todayRow)
-            upsertGold(patientId, recordDate, result)
+            upsertGold(patientId, recordDate, windowDays, result)
         } catch (e: Exception) {
             // best-effort — 온디맨드 응답 자체는 정상 반환되도록 여기서 예외를 삼킨다.
         }
@@ -285,7 +287,7 @@ class AnalyticsRepository(private val jdbc: NamedParameterJdbcTemplate) {
         )
     }
 
-    private fun upsertGold(patientId: Long, recordDate: LocalDate, result: Map<String, Any?>) {
+    private fun upsertGold(patientId: Long, recordDate: LocalDate, windowDays: Int, result: Map<String, Any?>) {
         val trendJson = mapper.writeValueAsString(result["trend_analysis"])
         val anomalyJson = mapper.writeValueAsString(result["anomaly_detection"])
         val correlationJson = mapper.writeValueAsString(result["attribute_correlation"])
@@ -298,16 +300,16 @@ class AnalyticsRepository(private val jdbc: NamedParameterJdbcTemplate) {
 
         val sql = """
             INSERT INTO patient_daily_analytics (
-                patient_id, record_date,
+                patient_id, record_date, window_days,
                 trend_json, anomaly_json, correlation_json, eda_json,
                 has_anomaly, anomaly_attrs, computed_at
             ) VALUES (
-                :patientId, :recordDate,
+                :patientId, :recordDate, :windowDays,
                 CAST(:trendJson AS JSONB), CAST(:anomalyJson AS JSONB),
                 CAST(:correlationJson AS JSONB), CAST(:edaJson AS JSONB),
                 :hasAnomaly, CAST(:anomalyAttrs AS TEXT[]), NOW()
             )
-            ON CONFLICT (patient_id, record_date) DO UPDATE SET
+            ON CONFLICT (patient_id, record_date, window_days) DO UPDATE SET
                 trend_json       = EXCLUDED.trend_json,
                 anomaly_json     = EXCLUDED.anomaly_json,
                 correlation_json = EXCLUDED.correlation_json,
@@ -321,6 +323,7 @@ class AnalyticsRepository(private val jdbc: NamedParameterJdbcTemplate) {
             mapOf(
                 "patientId" to patientId,
                 "recordDate" to recordDate,
+                "windowDays" to windowDays,
                 "trendJson" to trendJson,
                 "anomalyJson" to anomalyJson,
                 "correlationJson" to correlationJson,

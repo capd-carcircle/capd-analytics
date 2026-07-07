@@ -98,7 +98,7 @@ class AnalyticsService(private val repo: AnalyticsRepository) {
             cached to "cache"
         } else {
             val computed = AnalyticsTasks.runAllTasks(todayRow, historicalRows, window)
-            repo.upsertCache(patientId, todayRecord.recordDate, todayRow, computed)
+            repo.upsertCache(patientId, todayRecord.recordDate, historicalRows.size, todayRow, computed)
             computed to "on_demand"
         }
 
